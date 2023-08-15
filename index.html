@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Johanan Joshua portfolio</title>
+
+    <!--Font Awsome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--custom style.css file link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--Header section starts-->
+<header>
+    <div class="user">
+        <img src="images/johanan_joshua_image.jpg" alt="">
+        <h2 class="name">Johanan Joshua</h2>
+        <p class="post">Software Engineer | Web Developer </p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+
+        </ul>
+    </nav>
+</header>
+<!--header section ends-->
+
+<div id="menu" class="fas fa-bars"></div>
+
+
+<!--home section starts-->
+<section class="home" id="home">
+    <h3>HI THERE !</h3>
+    <h1>I'm <span>Johanan Joshua</span></h1>
+    <p>I have completed my BCA and I'm currently pursuing my Masters in Computer Applications, from Christ Deemed to be University. I am passionate about learning more in the field of computer science and I enjoy exploring new technologies.</p>
+
+</section>
+<!--home section ends-->
+
+<!--About section starts-->
+<section class="about" id="about">
+
+    <h1 class="heading"><span>About Me</span></h1>
+    <div class="row">
+        <div class="info">
+            <h3><span>Name : </span> Johanan Joshua </h3>
+            <h3><span>Age : </span> 22 </h3>
+            <h3><span>Qualification : </span> BCA </h3>
+            <h3><span>Languages known : </span>English, Kannada, Hindi, Telugu</h3>
+            <a href="https://www.example-myresume.com" target="_blank"><button class="btn">Download Resume <i class="fas fa-download"></i></button></a>
+        </div>
+    </div>
+
+</section>
+<!--About section ends-->
+
+<!--Education section starts-->
+<section class="education" id="education">
+
+    <h1 class="heading"><span>Education</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2017</span>
+            <h3>CLASS 10</h3>
+            <p>St. Thomas Aquinas School, Banglore</p>
+            <p>Karnataka State Board</p>
+            <p>Percentage : 94%</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2017 - 2019</span>
+            <h3>CLASS 12</h3>
+            <p>Christ Junior College, Banglore</p>
+            <p>Karnataka State PU Board</p>
+            <p>Percentage : 70%</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2019 - 2022</span>
+            <h3>Degree : BCA</h3>
+            <p>St. Francis College, Banglore</p>
+            <p>Bangalore City University</p>
+            <p>CGPA : 8.34</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2023 - current</span>
+            <h3>PG Degree : MCA</h3>
+            <p>Christ (Deemed to be) Universirty, Bangalore</p>
+            <p>Christ University</p>
+            <p>CGPA : </p>
+        </div>
+
+    </div>
+</section>
+<!--Education section ends-->
+
+<!--Skills section starts-->
+<section class="skills" id="skills">
+    <h1 class="heading"><span>Skills</span></h1>
+    <div>
+        <div class="skill_info">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C,C++</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+<!--Skills section ends-->
+
+
+
+<!--Projects section starts-->
+<section class="projects" id="projects">
+    <h1 class="heading"><span>Projects</span></h1>
+
+    <div>
+        <div class="projects_info">
+            <ul>
+                <li>
+                  <a href="https://www.example-project1.com" target="_blank">Project 1</a>
+                  <p>Hospital Management System using HTML, CSS, Javascript and PHP for backend</p>
+                </li>
+                <br>
+                <li>
+                  <a href="https://www.example-project2.com" target="_blank">Project 2</a>
+                  <p>Online Shoe Store using Python and Django</p>
+                </li>
+              </ul>
+        </div>
+    </div>
+
+</section>
+<!--Projects section ends-->
+
+
+
+<!--Contact Me section starts-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Contact Me</span></h1>
+
+    <div class="row">
+        <div class="content">
+            <h3 class="title">Contact Details</h3>
+            <br>
+
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i>johananjoshua@gmail.com</h3>
+                <h3><i class="fas fa-phone"></i>+91 9876543210</h3>
+                <h3><i class="fas fa-map-marker" aria-hidden="true"></i>Bangalore, India - 560029</h3>
+            </div>
+        </div>
+
+        <form onsubmit="return false;">
+            <input type="text" id="name" placeholder="Your name" class="box" required>
+            <input type="email" id="email" placeholder="Your email" class="box" required>
+            <textarea  id="message" cols="30" rows="10" class="box message" placeholder="Your message" required></textarea>
+            <button onclick="sendMessage()" class="btn">Send Message<i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+<!--Contact Me section ends-->
+
+
+    <!--jquery cdn link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!--custom js file link-->
+    <script src="script.js"></script>
+</body>
+</html>

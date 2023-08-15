@@ -1,0 +1,13 @@
+Lab Ex.2: 
+Develop static pages for a your Personal Portfolio using HTML,CSS,Javascript
+
+Updated Question:
+
+Develop static pages for a your Personal Portfolio using HTML,CSS,Javascript,Bootstrap
+Minimum 5 pages are needed for the portfolio
+Page 1:  Home Page (Navigation with Font awesome icons, Carousel) (HTML5, CSS, Bootstrap)
+Page 2:  Your Photo Gallery (Flexbox layout, Flex-wrap, Shadow effects) (CSS, HTML5)
+Page 3:  Skills Page with Heroes and Modals  Registration Form (Bootstrap)
+Page 4:  Projects developed (Parallax)
+Page 5:  Contact Us(Java script)
+The pages has to be accessed through the navigation bar, Footer must be there. Pages can be in any order. Designing is up to your creativity.
